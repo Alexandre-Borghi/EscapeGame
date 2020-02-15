@@ -1,0 +1,53 @@
+#images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 45vw;
+}
+
+p {
+    font-size: 3vw;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8vw;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    font-size: 3vw;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width: 600px) {
+    #images {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    p {
+        font-size: 6vw;
+    }
+
+    img {
+        width: 90vw;
+    }
+
+    a {
+        font-size: 6vw;
+    }
+}

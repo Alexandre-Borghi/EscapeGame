@@ -1,0 +1,64 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    text-align: center;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#flex-container > div {
+    margin: 1%;
+    text-align: center;
+    width: 25%;
+}
+
+#flex-container > div > * {
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+.center {
+    width: 30%;
+    margin: auto;
+}
+
+.center > * {
+    width: 100%;
+}
+
+.name {
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #flex-container {
+        flex-direction: column;
+        width: 60%;
+        margin: auto;
+    }
+
+    #flex-container > div {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 5vw;
+    }
+
+    .center {
+        width: 100%;
+    }
+}

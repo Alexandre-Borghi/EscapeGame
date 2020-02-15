@@ -1,0 +1,16 @@
+#clickable {
+    height: 50vw; /* Hard coded number from the size of the image */
+}
+
+#bag {
+    top: 20%;
+    left: 35%;
+    width: 30%;
+    height: 60%;
+}
+
+@media screen and (max-width: 800px) {
+    #clickable {
+        height: 72.75vw; /* Hard coded number from the size of the image */
+    }
+}

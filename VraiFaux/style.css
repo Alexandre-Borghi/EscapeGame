@@ -1,0 +1,14 @@
+img {
+    width: 48%;
+}
+
+#center {
+    width: 60%;
+    margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+    #center {
+        width: 100%;
+    }
+}

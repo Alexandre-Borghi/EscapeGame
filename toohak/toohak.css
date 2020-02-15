@@ -1,0 +1,26 @@
+p {
+    font-size: 1.7vw;
+    font-family: monospace;
+}
+
+#container {
+    display: grid;
+    width: 50%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1%;
+    grid-row-gap: 1%;
+
+    grid-template-areas: 
+        'Q Q'
+        'T T'
+        'S E'
+        'C O';
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    p { font-size: 4vw; }
+    
+    #container { width: 99%; }
+}

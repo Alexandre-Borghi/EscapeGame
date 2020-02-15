@@ -1,0 +1,23 @@
+#clickable {
+    height: 43.65vw; /* Hard coded number from the size of the image */
+}
+
+#armoire {
+    top: 5%;
+    left: 46%;
+    width: 20%;
+    height: 35%;
+}
+
+#postenoha {
+    top: 31%;
+    left: 70%;
+    width: 10%;
+    height: 15%;
+}
+
+@media screen and (max-width: 800px) {
+    #clickable {
+        height: 72.75vw; /* Hard coded number from the size of the image */
+    }
+}

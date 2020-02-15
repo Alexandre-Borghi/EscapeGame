@@ -1,0 +1,16 @@
+#clickable {
+    height: 44.544vw; /* Hard coded number from the size of the image */
+}
+
+#door {
+    top: 20%;
+    left: 40%;
+    width: 23%;
+    height: 70%;
+}
+
+@media screen and (max-width: 800px) {
+    #clickable {
+        height: 74.24vw; /* Hard coded number from the size of the image */
+    }
+}
